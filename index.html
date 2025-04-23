@@ -1,50 +1,79 @@
 <!doctype html>
 <html lang="en">
-  <!-- DO NOT CHANGE CODE WITHIN THE HEAD ELEMENT -->
-  <!-- UNLESS YOU KNOW WHAT YOU"RE DOING-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <!-- add fonts -->
+    <title>Goofy Girl Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- local style -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles/global.css" />
   </head>
   <body>
-    <!-- Header Area -->
-    <header></header>
-    <!-- Main Area -->
+    <header>
+      <img src="assets/images/pngtree-salon-logo-png-image_4004444.png" alt="Profile Logo" class="logo" />
+    </header>
     <main>
-      <h1>Welcome to Goofy Girl portfolio</h1>
-      <img src="assets/images/pngtree-salon-logo-png-image_4004444.png" alt="global" 
-    style="globzal.css" width="100" height="100" float ="right" margin="10px" style="position:right:absolute; top: 100px; right: 100px;">
+      <h1>Welcome to Goofy Girl's Portfolio</h1>
+      <p>A professional with a passion for providing premium services.</p>
+      <button>Learn more</button>
 
-      <p>A professional with a passion for providing premium services</p>
-      <button>Learn more</button> 
-    <section></section>
-   <!--About section-->
-   <section id="About">
-    <h2>About me</h2>
-    <p><li>Tech savvy software developer</li></p>
-    <p><li>Passionate about technology</li></p>
-    <p><li>Accouting professional</li></p>
-    <p><li>Bespoke fashion designer</li></p>
-    <p><li>Goofy mentor and life coach</li></p>
-    <img src="" alt="">
-   
-  
+      <section id="about">
+        <h2>About Me</h2>
+        <ul>
+          <li>Tech savvy software developer</li>
+          <li>Passionate about technology</li>
+          <li>Accounting professional</li>
+          <li>Bespoke fashion designer</li>
+          <li>Goofy mentor and life coach</li>
+        </ul>
 
+      </section id="projects">
+      <h2>My projects</h2>
+      <div class = "project">
+        <h3>Fashion AI: StyleMe App</h3>
+        <p>A mobile app that uses AI to suggest custom outfit combinations for users based on their body type, skin tone, and fashion mood of the day.</p>
+        <p><strong>Tech Stack:</strong> React Native, TensorFlow Lite, Firebase</p>
+      </div>
 
+      <div class="project">
+        <h3>Payshutter</h3>
+        <p>A personal finance web app that helps users track expenses, create budgets, and receive alerts for overspending.</p>
+        <p><strong>Tech Stack:</strong> Vue.js, Node.js, MongoDB</p>
+      </div>
 
-   </section>
-   
-   
+      <div class="project">
+        <h3>Glow & Go - Online Beauty Booking Platform</h3>
+        <p>An appointment scheduling platform for beauty salons, featuring live stylist availability, reviews, and location-based search.</p>
+        <p><strong>Tech Stack:</strong> PHP, MySQL, Bootstrap</p>
+      </div>
+    </section id="testimonials">
+    <h2>What People Say</h2>
+    u
+    <blockquote>
+      “Working with Goofy Girl was a dream. She brought our vision to life and made the tech journey so fun!” – Ava B., Founder, ChicTech
+    </blockquote>
+    <blockquote>
+      “An extraordinary mix of creativity and logic — she can code and design a dress in the same day.” – Jay R., CEO, BudgetWise
+    </blockquote>
+    <blockquote>
+      “Her mentoring changed my life — I went from zero to launching my own freelance design business!” – Blessing T., Life Coach Mentee
+    </blockquote>
+  </section>
+      <h2>Contact Me</h2>
+      <p>If you would like to get in touch, please reach out via email at
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+    
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+    
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+    
+        <button type="submit">Send</button>
+      </form>
+    </section>
     </main>
   </body>
 </html>

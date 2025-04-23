@@ -1,30 +1,55 @@
 /* remove default browser spacing*/
+*/* Reset default spacing */
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-main{
-  
-  height: 100px;
-  <img src="assets/images/pngtree-salon-logo-png-image_4004444.png" alt="Profile Picture" 
-  style="globzal.css" 
-  width="100" 
-  height="100" 
-  float ="right" 
-  margin="10px"
-  style="position:right:absolute; top: 100px; right: 100px;">
 
+body {
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1.6;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
 }
-div{
-  display: flex;
-  justify-content: right;
-  align-items: right;
-  height: 100vh;
 
-  float: right;
-  margin: 10px;
+.logo {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
-/*title text style*/
-/* the font-family 'JetBrains Mono', has been linked
- * and is available for your use
- * */
+
+main {
+  padding: 100px 20px 20px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #6b3e99;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #6b3e99;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#about h2 {
+  margin-top: 40px;
+  color: ##6b3e99;
+}
+
+#about ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
